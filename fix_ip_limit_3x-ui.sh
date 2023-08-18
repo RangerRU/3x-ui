@@ -5,10 +5,6 @@ green='\033[0;32m'
 yellow='\033[0;33m'
 plain='\033[0m'
 
-iplimit_remove_conflicts
-
-create_iplimit_jails
-
 
 
 create_iplimit_jails() {
@@ -167,3 +163,9 @@ iplimit_remove_conflicts() {
         fi
     done
 }
+
+
+
+iplimit_remove_conflicts
+
+create_iplimit_jails
